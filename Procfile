@@ -1,1 +1,1 @@
-web: sh ./front/run.sh
+web: sh ./run.sh
