@@ -1,0 +1,9 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "nuxt.js simple example",
+  "author": "mihalycz",
+  "engines": {
+    "node": "10.x"
+  }
+}
