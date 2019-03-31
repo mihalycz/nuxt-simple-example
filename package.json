@@ -5,7 +5,8 @@
   "author": "mihalycz",
   "scripts": {
     "postinstall": "cd front && npm i",
-    "start": "cd front && cross-env NODE_ENV=production node server/index.js"
+    "start": "cd front && cross-env NODE_ENV=production node server/index.js",
+    "heroku-postbuild": "cd front && npm run build"
   },
   "engines": {
     "node": "10.x"
