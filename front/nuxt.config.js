@@ -26,6 +26,7 @@ module.exports = {
       'nuxt-sass-resources-loader',
       [
         resolve(__dirname, './assets/scss/variables.scss'),
+        resolve(__dirname, './assets/scss/mixins.scss'),
       ]
     ]
   ],

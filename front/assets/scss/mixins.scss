@@ -1,0 +1,8 @@
+@mixin content-common {
+  width: 100vw;
+  opacity: 0.9;
+  text-align: center;
+  transition: opacity 1s;
+  position: relative;
+  z-index: 1;
+}
