@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "nuxt.js simple example",
   "author": "mihalycz",
+  "scripts": {
+    "start": "cd front && npm i && export $(cat .env | xargs) && nuxt generate && node ./node_modules/.bin/http-server ./dist"
+  },
   "engines": {
     "node": "10.x"
   }
